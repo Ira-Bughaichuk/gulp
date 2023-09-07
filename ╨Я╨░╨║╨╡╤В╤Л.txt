@@ -1,38 +1,38 @@
-Команда для установки всех пакетов:
+Команда для встановлення усіх пакетів:
 npm i gulp gulp-sass sass gulp-file-include gulp-clean gulp-server-livereload gulp-sourcemaps gulp-plumber gulp-notify gulp-group-css-media-queries --save-dev
 
-Описание пакетов:
-gulp - собственно Gulp
-gulp-sass - Сборка SASS / SCSS
-sass - Необходим для сборки SASS / SCSS
-gulp-file-include - Подключение файлов друг в друга. HTML include
-gulp-clean - Удаление файлов
-gulp-server-livereload - Сервер с автообновлением страницы
-gulp-sourcemaps - Исходные карты для CSS
-gulp-plumber - Фикс ошибок при сборке
-gulp-notify - Нотификации
-gulp-group-css-media-queries - Группировка CSS медиа запросов
+Опис пакетів:
+gulp - сам Gulp
+gulp-sass - Збірка SASS / SCSS
+sass - Необхідний для збірки SASS / SCSS
+gulp-file-include - Підключення файлів один в одний. HTML include
+gulp-clean - Видалення файлів
+gulp-server-livereload - Сервер з автооновленням сторінки 
+gulp-sourcemaps - Вихідні карти для CSS
+gulp-plumber - Фікс помилок при зборі
+gulp-notify - Нотіфікація
+gulp-group-css-media-queries - Групування CSS медіа запитів
 
 ----------------------------------------------------------------------
 
-Сборка скриптов. webpack, babel
+Збірка скриптів. webpack, babel
 
-Установка babel:
+Встановлення babel:
 npm i gulp-babel @babel/core @babel/preset-env
 
 - JS таск
-- Настройки package-json
+- Налаштування package-json
 
 ----------------------------------------------------------------------
 
-Установка webpack:
+Встановлення webpack:
 npm i webpack-stream style-loader css-loader --save-dev
 
 - JS таск
-- webpack конфиг
-- пример файлов с модулями
+- webpack конфіг
+- приклад файлів з модулями
 
-Пример с datepicker:
+Приклад з datepicker:
 npm i air-datepicker -S
 
 
@@ -57,11 +57,11 @@ npm i gulp-imagemin@7 --save-dev
 
 ----------------------------------------------------------------------
 
-Ускорение сборки
+Прискорення зборки
 
 npm install --save-dev gulp-changed
 
-- использование в картинках, HTML, JS, CSS
+- використання в картинках, HTML, JS, CSS
 
 
 ----------------------------------------------------------------------
